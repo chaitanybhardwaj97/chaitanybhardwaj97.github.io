@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="data:image/png;base64,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" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+  <header class="text-gray-400 bg-gray-900 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+      <img alt="hero" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIB9RGGmBt2PonMbyOzZFHmLOzymmouBi11g&usqp=CAU" width="30 height=30"/>
+        <span class="ml-3 text-xl">Engineering and Design</span>
+      </a>
+      <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+        <a class="mr-5 hover:text-white" href="home.html">Home</a>
+        <a class="mr-5 hover:text-white" target="_blank" href ="https://drive.google.com/file/d/1_146z_g1xG3jK94Q1qT8fwXBmet7zuGK/view?usp=sharing">Resume</a>
+        <a class="mr-5 hover:text-white" href="contact.html">Contact</a>
+        <a class="mr-5 hover:text-white" href="contact.html">Feedback</a>
+        <a class="mr-5 hover:text-white" href="#footer">Social Media</a>
+
+      </nav>
+      <a class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0" href="https://github.com/chaitanybhardwaj97">GitHub
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </a>
+    </div>
+      </header>
+<section class="text-gray-400 bg-gray-900 body-font relative">
+  <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+    <div class="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+      <iframe width="100%" height="100%" title="map" class="absolute inset-0" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.269660399607!2d77.26744981514496!3d28.651643389966445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfc9606a7be45%3A0xa09ff653570fe9d5!2sMayurdhwaj%20Apartments%2C%20Raja%20Ram%20Kohli%20Marg%2C%20Taj%20Enclave%2C%20Geeta%20Colony%2C%20New%20Delhi%2C%20Delhi%20110031!5e0!3m2!1sen!2sin!4v1629954352196!5m2!1sen!2sin" style="filter: grayscale(1) contrast(1.2) opacity(0.16);"></iframe>
+      <div class="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+        <div class="lg:w-1/2 px-6">
+          <h2 class="title-font font-semibold text-white tracking-widest text-xs">ADDRESS</h2>
+          <p class="mt-1"> New Delhi, India &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 </p>
+        </div>
+        <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+          <h2 class="title-font font-semibold text-white tracking-widest text-xs">EMAIL</h2>
+          <a class="text-blue-400 leading-relaxed">chaitanybhardwaj1997@gmail.com</a>
+          <h2 class="title-font font-semibold text-white tracking-widest text-xs mt-4">PHONE</h2>
+          <p class="leading-relaxed">+91-8447898545</p>
+        </div>
+      </div>
+    </div>
+    <div class="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+      <h2 class="text-white text-lg mb-1 font-medium title-font">Feedback</h2>
+      <form action="https://postmail.invotes.com/send" method="post" id="email_form">
+      <p class="leading-relaxed mb-5">Please take some time to provide your valuable feedback.</p>
+      <div class="relative mb-4">
+        <label for="name" class="leading-7 text-sm text-gray-400">Name</label>
+        <input type="text" id="name" name="subject" class="w-full bg-gray-800 rounded border border-gray-700 focus:border-blue-500 focus:ring-2 focus:ring-blue-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+      </div>
+      <div class="relative mb-4">
+        <label for="message" class="leading-7 text-sm text-gray-400">Message</label>
+        <textarea id="message" name="text" class="w-full bg-gray-800 rounded border border-gray-700 focus:border-blue-500 focus:ring-2 focus:ring-blue-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+      </div>
+      <input type="hidden" name="access_token" value="vst5mtz1y1zhu2ta2ytafkpn" />
+      <input type="hidden" name="success_url" value="home.html" />
+      <input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
+
+      <input id="submit_form" onclick="window.location.href = 'https://www.linkedin.com/in/chaitany/';" type="submit" class="text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg"> </input>
+
+      <p class="text-xs text-gray-400 text-opacity-90 mt-3">Have a great day ! </p>
+
+    <p>Powered by <a href="https://postmail.invotes.com" target="_blank">PostMail</a></p>
+</form>
+
+<!--<script>-->
+<!--    var submitButton = document.getElementById("submit_form");-->
+<!--    var form = document.getElementById("email_form");-->
+<!--    form.addEventListener("submit", function (e) {-->
+<!--        e.preventDefault();-->
+<!--        setTimeout(function() {-->
+<!--            submitButton.value = "Submitting...";-->
+<!--            submitButton.disabled = true;-->
+<!--        }, 1);-->
+<!--    }-->
+<!--    );-->
+
+<!--    submitButton.addEventListener("click", function (e) {-->
+<!--      window.location.href = 'home.html';-->
+<!--      });-->
+<!--</script>-->
+
+    </div>
+
+
+  </div>
+</section>
+
+ <footer id = "footer" class="text-gray-400 bg-gray-900 body-font">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+              <img alt="hero" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIB9RGGmBt2PonMbyOzZFHmLOzymmouBi11g&usqp=CAU" width="30 height=30"/>
+
+        <span class="ml-3 text-xl">Chaitany's Portfolio</span>
+      </a>
+      <p class="text-sm text-white-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4"> You can reach out to me in case you want one of your own :)
+      </p>
+      <a class="mr-5 text-sm text-white hover:text-white" href="contact.html">&#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160  Contact us</a>
+      <a class="mr-5 text-sm text-white hover:text-white" href="home.html">&#160 &#160  Home</a>
+      <a class="mr-5 text-sm text-white hover:text-white" href="home.html">&#160 &#160  Support</a>
+
+
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a href = "https://www.facebook.com/chaitany.bhardwaj/" class="text-gray-400">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a href = "https://www.instagram.com/chaitanybhardwajj/" class="ml-3 text-gray-400">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a href = "https://www.linkedin.com/in/chaitany/" target = "_blank" class="ml-3 text-gray-400">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </footer>
+
+</body>
+</html>
